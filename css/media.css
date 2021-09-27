@@ -1,0 +1,105 @@
+@media(max-width:800px) {
+    .header .nav .button a{
+        display: none;
+    }
+    .site-logo {
+        justify-content: center;
+        align-items: center;
+        flex-flow: column-reverse;
+        color: #fff;
+        
+    }
+    .site-logo  h6{
+        font-size: 21px;
+    }
+    .site-logo img{
+        margin-bottom: 8px;
+    }
+    .right-body-header {
+        padding-top: 32px;
+        text-align: center;
+    }
+    .right-body-header a{
+        margin: 77px auto;
+    }
+    .header{
+        height: 100vh;
+    }
+    /*start servec */
+    .servec {
+        margin-top: 240px;
+    }
+    .servec .title{
+        clip-path: polygon(65% 50%, 100% 100%, 100% 0);
+    }
+    .title-1 {
+        position: absolute;
+        right: 152px;
+    }
+    .body-servec p {
+        padding-bottom: 55px;
+        width: 100%;
+        text-align: center;
+    }
+    .i-one{
+        margin-top: 0px;
+    }
+    .i-two{
+        margin-top: 0px;
+    }
+    .click a {
+        width: 276px;
+        height: 65px;
+    }
+    /**/
+    .owl-nav{
+        position: absolute;
+        top: 45%;
+        width: 100%;
+    }
+    .owl-prev{
+        float: left;
+    }
+    .owl-prev span{
+        font-size: 54px;
+        width: 53px;
+        display: inline-block;
+        height: 67px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0000008f;
+        color: #fff;
+        border-radius: 44px;
+    
+    }
+    .owl-next{
+        text-align: right;
+        position: absolute;
+        float: right;
+        right: 0;
+    }
+    .owl-next span{
+        font-size: 54px;
+        width: 53px;
+        display: inline-block;
+        height: 67px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0000008f;
+        color: #fff;
+        border-radius: 44px;
+    
+    }
+    .down {
+        right: 48%;
+        top: 100%;
+    }
+    .ex-end ul li{
+        font-size: 16px;
+        margin: 0 18px;
+    }
+    
+    /*end carsoul*/
+}

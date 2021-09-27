@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+.container{
+    width: 1100px;
+    margin: 0 auto
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.upper-footer{
+    background-color: #b4e1fa;
+    border-top-left-radius: 300px;
+    padding: 80px 0
+}
+.upper-footer a{
+    text-decoration: none;
+    color: #000
+}
+.upper-footer .holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.upper-footer .address{
+    width: 20%
+}
+.upper-footer .mobile{
+    width: 25%
+}
+.upper-footer .subscribe{
+    width: 30%
+}
+.upper-footer .logo{
+    width: 25%
+}
+
+.upper-footer .address,
+.upper-footer .mobile,
+.upper-footer .subscribe,
+.upper-footer .logo{
+    color: #13162a
+}
+
+.upper-footer .address p{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.upper-footer .mobile ul{
+    list-style: none;
+    margin-right: 40px;
+}
+
+.upper-footer .mobile ul li h4{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.upper-footer .mobile ul li h4 a{
+    font-weight: 600;
+    color: #13162a
+}
+
+.upper-footer .subscribe h4{
+    font-size: 15px;
+    color: #13162a
+}
+
+.upper-footer .subscribe p{
+    font-size: 14px;
+    color: #13162a;
+    margin: 5px 0 15px 0
+}
+
+.upper-footer .subscribe .sub input{
+    background: none;
+    border: 2px solid #4d6c83;
+    padding: 8px;
+    outline: none;
+    margin-left: 2%;
+    width: 52%;
+    border-radius: 5px;
+}
+.upper-footer .subscribe .sub button{
+    padding: 7px 25px;
+    background: #084e8a;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+    font-family: 'Tajawal', sans-serif;
+    cursor: pointer
+}
+.upper-footer .subscribe .sub button:focus{
+    outline: none
+}
+
+.down-footer{
+    background-color: #001429;
+    color: #ddd;
+    font-family: arial;
+    padding: 20px 0
+}
+
+.down-footer .holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.down-footer .holder .signiture{
+    font-size: 12px
+}
+
+.down-footer .holder .signiture p{
+    margin-top: 10px
+}
+
+.down-footer .holder .social span{
+    background-color: #084e8a;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: all 0.6s ease-in-out
+}
+
+.down-footer .holder .social span:hover{
+    transform: rotate(360deg)
+}
+
+@media (max-width: 500px) {
+    .container{
+        width: 95%;
+    }
+    .upper-footer .holder{
+        flex-flow: column;
+        text-align: center;
+    }
+    .upper-footer .address,
+    .upper-footer .mobile,
+    .upper-footer .subscribe,
+    .upper-footer .logo{
+        width: 100%;
+        margin-bottom: 35px
+    }
+    .upper-footer .address{
+        width: 50%
+    }
+    .upper-footer .mobile ul{
+        margin: 0
+    }
+    .upper-footer{
+        border-top-left-radius: 0;
+    }
+}
